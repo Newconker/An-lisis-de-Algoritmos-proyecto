@@ -1,0 +1,112 @@
+/*
+*Archivo encargado de editar caracteristicas visuales de cada objeto 
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(209, 199, 199);
+}
+
+
+#tableroSuperiorIzquierdo {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 405px;
+}
+#tableroSuperiorDerecho {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    /*background-color: pink;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 1007px;
+    
+
+}
+#tableroInferiorDerecho {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    /*background-color: red;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 1005px;
+    top: 668px;
+}
+#tableroInferiorIzquierdo{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    /*background-color: green;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 405px;
+    top: 668px;
+}
+#tableroCentral {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 705px;
+    top: 367px;
+}
+
+.tile {
+    width: 48px; 
+    height: 48px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lineaHorizontal {
+    border-bottom: 1.5px solid black;
+}
+.lineaVertical {
+    border-right: 1.5px solid black;
+}
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
