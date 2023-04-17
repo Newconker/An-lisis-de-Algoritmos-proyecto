@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>Sudoku</title>
+
+        <link rel="stylesheet" href="sodoku.css">
+        <script src="sodoku.js"></script>
+    </head>
+
+    <body>
+        <h1>Sudoku</h1>
+
+        <!-- Creación de cada tablero  -->
+        <div id = "tableroSuperiorIzquierdo" name = "iz"></div>
+        <div id = "tableroSuperiorDerecho"></div>
+        <div id = "tableroInferiorDerecho"></div>
+        <div id = "tableroInferiorIzquierdo"></div>
+        <div id = "tableroCentral" name = "c"></div>
+        <br>
+        <hr>
+        <div id = "digits">
+        
+        <button id="btnGen" onclick = inicializaTablas() >Generar Sudoku</button>
+        <button id="btn1_1" onclick = validaRecorrido() >Siguiente Paso</button>
+        <button id = "estrella" onclick= resolverBoton()> Resolver con A*</button>
+        </div>
+
+    </body>
+
+
+</html>
