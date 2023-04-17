@@ -1,0 +1,211 @@
+/*
+*Archivo encargado de editar caracteristicas visuales de cada objeto 
+*/
+h1 {
+    position: absolute;
+    left: 200px;
+}
+hr {
+    width: 370px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /*background-color: rgb(209, 199, 199);*/
+}
+
+#estrella {
+    position: absolute;
+    top: 350px;
+    
+    left: 0px;
+    cursor: pointer;
+    
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;   
+    margin: 4px 2px;    
+}
+#btnGen {
+    position: absolute;
+    top: 225px;
+    
+    left: 0px;
+    cursor: pointer;
+    
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;   
+    margin: 4px 2px;  
+}
+#btn1_1 {
+    position: absolute;
+    top: 150px;
+    
+    left: 0px;
+    cursor: pointer;
+    
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;   
+    margin: 4px 2px;  
+}
+
+#btn2 {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    cursor: pointer;
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;   
+    margin: 4px 2px;  
+}
+#btn3 {
+    position: absolute;
+    top: 150px;
+    
+    left: 0px;
+    cursor: pointer;
+    
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;   
+    margin: 4px 2px;  
+}
+
+#tableroSuperiorIzquierdo {
+    width: 450px;
+    height: 450px;
+    
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 380px;
+}
+#tableroSuperiorDerecho {
+    width: 450px;
+    height: 450px;
+   
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 982px;
+    
+
+}
+#tableroInferiorDerecho {
+    width: 450px;
+    height: 450px;
+    
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 982px;
+    top: 610px;
+}
+#tableroInferiorIzquierdo{
+    width: 450px;
+    height: 450px;
+   
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 380px;
+    top: 610px;
+}
+#tableroCentral {
+    width: 450px;
+    height: 450px;
+    
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 680px;
+    top: 308px;
+}
+
+.tile {
+    width: 48px; 
+    height: 48px;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lineaHorizontal {
+    border-bottom: 1.5px solid black;
+}
+.lineaVertical {
+    border-right: 1.5px solid black;
+}
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invisible {
+    display: none;
+    opacity: 0;
+    
+}
